@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export function Header() {
+export  function Header() {
     return(
         <View style={styles.header}>
             <Text style={styles.title}>My Todos</Text>
@@ -20,5 +20,5 @@ const styles = StyleSheet.create({
         fontWeight : 'bold',
         textAlign : 'center',
         fontSize : 20,
-    },
+    }
 });
